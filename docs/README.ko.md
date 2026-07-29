@@ -4,7 +4,7 @@
 
 > CAN / CAN FD 로그 분석을 위한 Windows 데스크톱 도구입니다. 로그와 프로토콜 정의를 가져오고 신호를 선택하면, 대화형으로 조작할 수 있으며 오프라인으로 공유할 수 있는 HTML 분석 보고서를 생성합니다.
 
-[**Windows V1.1.0 다운로드**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.1.0/AutoX_CAN_Setup_1.1.0.exe) · [모든 릴리스 보기](https://github.com/hsj521/AutoX-CAN-Releases/releases)
+[**Windows V1.2.0 다운로드**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe) · [모든 릴리스 보기](https://github.com/hsj521/AutoX-CAN-Releases/releases)
 
 ## AutoX CAN의 장점
 
@@ -33,13 +33,13 @@
 
 ## 다운로드 및 설치
 
-현재 정식 버전: **V1.1.0**
+현재 정식 버전: **V1.2.0**
 
-1. [`AutoX_CAN_Setup_1.1.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.1.0/AutoX_CAN_Setup_1.1.0.exe)를 다운로드합니다.
+1. [`AutoX_CAN_Setup_1.2.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe)를 다운로드합니다.
 2. 설치 프로그램을 두 번 클릭하고 설치 마법사의 안내를 따릅니다.
 3. 설치 후 시작 메뉴 또는 바탕 화면 바로 가기에서 AutoX CAN을 실행합니다.
 
-SHA256 체크섬과 릴리스 노트는 [V1.1.0 Release 페이지](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.1.0)에서 확인할 수 있습니다.
+SHA256 체크섬과 릴리스 노트는 [V1.2.0 Release 페이지](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.2.0)에서 확인할 수 있습니다.
 
 ## 피드백
 
