@@ -2,7 +2,7 @@
 
 > 面向 CAN / CAN FD 日志分析的 Windows 桌面工具：导入日志与协议定义，选择信号，即可生成可交互、可离线分享的 HTML 分析报告。
 
-[**立即下载 Windows V1.1.0**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.1.0/AutoX_CAN_Setup_1.1.0.exe) · [查看全部版本](https://github.com/hsj521/AutoX-CAN-Releases/releases)
+[**立即下载 Windows V1.2.0**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe) · [查看全部版本](https://github.com/hsj521/AutoX-CAN-Releases/releases)
 
 ## 为什么选择 AutoX CAN
 
@@ -31,13 +31,13 @@
 
 ## 下载与安装
 
-当前正式版：**V1.1.0**
+当前正式版：**V1.2.0**
 
-1. 下载 [`AutoX_CAN_Setup_1.1.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.1.0/AutoX_CAN_Setup_1.1.0.exe)。
+1. 下载 [`AutoX_CAN_Setup_1.2.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe)。
 2. 双击安装包，按安装向导完成安装。
 3. 安装后从开始菜单或桌面快捷方式启动 AutoX CAN。
 
-安装包的 SHA256 校验值与版本说明位于对应 [Release 页面](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.1.0)。
+安装包的 SHA256 校验值与版本说明位于对应 [Release 页面](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.2.0)。
 
 ## 反馈
 
