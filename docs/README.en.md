@@ -4,7 +4,7 @@
 
 > A Windows desktop tool for CAN / CAN FD log analysis. Import a log and a protocol definition, select signals, and generate an interactive HTML analysis report that can be shared and opened offline.
 
-[**Download Windows V1.1.0**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.1.0/AutoX_CAN_Setup_1.1.0.exe) · [All releases](https://github.com/hsj521/AutoX-CAN-Releases/releases)
+[**Download Windows V1.2.0**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe) · [All releases](https://github.com/hsj521/AutoX-CAN-Releases/releases)
 
 ## Why AutoX CAN
 
@@ -33,13 +33,13 @@
 
 ## Download and install
 
-Current stable version: **V1.1.0**
+Current stable version: **V1.2.0**
 
-1. Download [`AutoX_CAN_Setup_1.1.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.1.0/AutoX_CAN_Setup_1.1.0.exe).
+1. Download [`AutoX_CAN_Setup_1.2.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe).
 2. Double-click the installer and follow the setup wizard.
 3. Launch AutoX CAN from the Start menu or desktop shortcut after installation.
 
-The SHA256 checksum and release notes are available on the [V1.1.0 Release page](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.1.0).
+The SHA256 checksum and release notes are available on the [V1.2.0 Release page](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.2.0).
 
 ## Feedback
 
