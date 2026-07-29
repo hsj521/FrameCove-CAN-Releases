@@ -1,50 +1,24 @@
 > [简体中文](../README.md) | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-# AutoX CAN
+# FrameCove CAN™
 
-> CAN / CAN FD ログ解析向けの Windows デスクトップツールです。ログとプロトコル定義を読み込み、信号を選択するだけで、対話的に操作でき、オフラインでも共有できる HTML 解析レポートを生成します。
+> CAN / CAN FD ログを解析する Windows デスクトップツールです。ログとプロトコル定義を読み込み、信号を選択して、オフライン共有可能な対話型 HTML レポートを生成します。
 
-[**Windows V1.2.0 をダウンロード**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe) · [すべてのリリース](https://github.com/hsj521/AutoX-CAN-Releases/releases)
+[**Windows V1.3.0 をダウンロード**](https://github.com/hsj521/FrameCove-CAN-Releases/releases/download/v1.3.0/FrameCove_CAN_Setup_1.3.0.exe) · [すべてのリリース](https://github.com/hsj521/FrameCove-CAN-Releases/releases)
 
-## AutoX CAN の特長
+## 主な特長
 
-- **データはすべてローカルで処理**：ログ、プロトコルファイル、レポートは PC 内で処理されます。サービスを起動せず、データをアップロードせず、ネットワークにもアクセスしません。
-- **一般的な車載ログ形式に対応**：Vector ASC と BLF を読み込み、クラシック CAN と一般的な CAN FD ログに対応します。
-- **プロトコルに基づくデコード**：DBC または XLSX 定義を読み込み、生のフレームを物理値の信号へデコードします。
-- **マルチ CAN チャネル再生**：CAN 1～8 を選択でき、異なるチャネルで同じ CAN ID を持つフレームが混在することを防ぎます。
-- **複数信号の比較に適した表示**：選択した信号ごとに色分けされた独立 Y 軸を使用し、単位や値域が異なる信号を比較しやすくします。
+- ログ、プロトコル、レポートをローカル PC 内で処理し、業務データをアップロードしません。
+- ASC / BLF、DBC / XLSX、CAN 1～8、一般的な CAN FD ログに対応します。
+- 独立した色付き Y 軸、共通タイムライン、2 点測定、サンプル点の確認を提供します。
+- 中英日韓の切替に対応した自己完結型 HTML レポートには `FrameCove CAN™ · V1.3.0` が表示されます。
 
-## 3 ステップでログを解析
+## インストール
 
-1. `.dbc` / `.xlsx` のプロトコル定義と `.asc` / `.blf` の CAN ログを読み込みます。
-2. 再生チャネルを選択し、解析したい信号を検索して追加します。
-3. 単一の自己完結型 HTML レポートを生成します。ブラウザでズーム、パン、値の確認、オフライン共有ができます。
+1. [`FrameCove_CAN_Setup_1.3.0.exe`](https://github.com/hsj521/FrameCove-CAN-Releases/releases/download/v1.3.0/FrameCove_CAN_Setup_1.3.0.exe) をダウンロードします。
+2. インストーラーを実行し、画面の案内に従います。
+3. 実行中の FrameCove CAN または旧 AutoX CAN は、ファイル更新前にインストーラーが終了します。
 
-## 主な機能
+チェックサムとリリースノートは [V1.3.0 Release ページ](https://github.com/hsj521/FrameCove-CAN-Releases/releases/tag/v1.3.0) で確認できます。
 
-| 機能 | 説明 |
-| --- | --- |
-| ASC / BLF 解析 | ASC と BLF のログを読み込み、両形式をローカルで相互変換できます。 |
-| DBC / XLSX デコード | Intel / Motorola バイト順、符号付き値、係数、オフセット、基本的な多重化信号に対応します。 |
-| 信号検索 | 信号名、メッセージ名、CAN ID で検索でき、複数信号をまとめて解析できます。 |
-| 対話型レポート | HTML レポートでズーム、パン、共有ホバー値、時間範囲選択、Y 軸調整ができます。 |
-| 2 点測定 | 2 つのサンプルを選択して時間差を比較し、同一信号では値の差も確認できます。 |
-| Windows デスクトップ UI | 高 DPI 対応のダーク UI。F11 で全画面、Esc で終了できます。 |
-
-## ダウンロードとインストール
-
-現在の正式版：**V1.2.0**
-
-1. [`AutoX_CAN_Setup_1.2.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe) をダウンロードします。
-2. インストーラーをダブルクリックし、セットアップウィザードに従います。
-3. インストール後、スタートメニューまたはデスクトップのショートカットから AutoX CAN を起動します。
-
-SHA256 チェックサムとリリースノートは [V1.2.0 Release ページ](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.2.0) で確認できます。
-
-## フィードバック
-
-インストールまたは使用上の問題は、AutoX CAN のバージョン、Windows のバージョン、再現手順を添えて [Issues](https://github.com/hsj521/AutoX-CAN-Releases/issues) でお知らせください。
-
----
-
-このリポジトリにはインストーラー、リリースノート、チェックサムのみを公開しています。**AutoX CAN のソースコードは含まれていません。**
+このリポジトリにはインストーラー、リリースノート、チェックサムのみを含み、FrameCove CAN のソースコードは含みません。`FrameCove CAN™` は未登録の標識です。

@@ -1,50 +1,25 @@
 > [简体中文](../README.md) | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-# AutoX CAN
+# FrameCove CAN™
 
-> A Windows desktop tool for CAN / CAN FD log analysis. Import a log and a protocol definition, select signals, and generate an interactive HTML analysis report that can be shared and opened offline.
+> A Windows desktop tool for CAN / CAN FD log analysis. Import a log and protocol definition, select signals, and create an interactive HTML report that can be shared and opened offline.
 
-[**Download Windows V1.2.0**](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe) · [All releases](https://github.com/hsj521/AutoX-CAN-Releases/releases)
+[**Download Windows V1.3.0**](https://github.com/hsj521/FrameCove-CAN-Releases/releases/download/v1.3.0/FrameCove_CAN_Setup_1.3.0.exe) · [All releases](https://github.com/hsj521/FrameCove-CAN-Releases/releases)
 
-## Why AutoX CAN
+## Highlights
 
-- **Fully local processing**: logs, protocol files, and reports stay on your computer. The application starts no service, uploads no data, and makes no network requests.
-- **Common automotive log formats**: reads Vector ASC and BLF logs, including classic CAN and common CAN FD logs.
-- **Protocol-based decoding**: reads DBC or XLSX definitions and decodes raw frames into engineering signal values.
-- **Multi-channel replay**: select CAN channels 1–8 to prevent frames with the same CAN ID from different channels being decoded together.
-- **Built for joint analysis**: each selected signal has its own colored Y-axis, making it easier to compare values with different units and ranges.
+- Local processing for logs, protocol files, and reports; no business data upload.
+- ASC / BLF logs, DBC / XLSX decoding, CAN 1–8 selection, and common CAN FD records.
+- Independent colored Y-axes, shared timeline inspection, two-point measurement, and sample-point reading.
+- Self-contained HTML reports with Chinese, English, Japanese, and Korean switching, branded `FrameCove CAN™ · V1.3.0`.
+- Clear report-generation feedback: deep red percentage progress while processing, deep green at completion.
 
-## Analyze a log in three steps
+## Install
 
-1. Import a `.dbc` / `.xlsx` protocol definition and an `.asc` / `.blf` CAN log.
-2. Select the replay channel, then search for and add the signals to analyze.
-3. Generate one self-contained HTML report. Zoom, pan, inspect values, or share it for offline viewing in a browser.
+1. Download [`FrameCove_CAN_Setup_1.3.0.exe`](https://github.com/hsj521/FrameCove-CAN-Releases/releases/download/v1.3.0/FrameCove_CAN_Setup_1.3.0.exe).
+2. Run the installer and follow the wizard.
+3. The installer closes a running FrameCove CAN or legacy AutoX CAN process before replacing files.
 
-## Key features
+Checksums and release notes are on the [V1.3.0 Release page](https://github.com/hsj521/FrameCove-CAN-Releases/releases/tag/v1.3.0).
 
-| Feature | Description |
-| --- | --- |
-| ASC / BLF analysis | Reads ASC and BLF logs and converts between the two formats locally. |
-| DBC / XLSX decoding | Supports Intel / Motorola byte order, signed values, scaling, offsets, and basic multiplexed signals. |
-| Signal search | Search by signal name, message name, or CAN ID; analyze multiple signals together. |
-| Interactive reports | HTML reports support zooming, panning, shared hover values, time-range selection, and Y-axis adjustment. |
-| Two-point measurement | Select two samples to compare their time interval and, for the same signal, their value difference. |
-| Windows desktop UI | Dark, high-DPI interface with F11 full screen and Esc to exit full screen. |
-
-## Download and install
-
-Current stable version: **V1.2.0**
-
-1. Download [`AutoX_CAN_Setup_1.2.0.exe`](https://github.com/hsj521/AutoX-CAN-Releases/releases/download/v1.2.0/AutoX_CAN_Setup_1.2.0.exe).
-2. Double-click the installer and follow the setup wizard.
-3. Launch AutoX CAN from the Start menu or desktop shortcut after installation.
-
-The SHA256 checksum and release notes are available on the [V1.2.0 Release page](https://github.com/hsj521/AutoX-CAN-Releases/releases/tag/v1.2.0).
-
-## Feedback
-
-For installation or usage issues, please open an [Issue](https://github.com/hsj521/AutoX-CAN-Releases/issues) with the AutoX CAN version, Windows version, and steps to reproduce.
-
----
-
-This repository distributes installers, release notes, and checksums only. **It does not contain the AutoX CAN source code.**
+This repository distributes installers, release notes, and checksums only. It does not contain FrameCove CAN source code. `FrameCove CAN™` is an unregistered mark; third-party marks belong to their respective owners.
