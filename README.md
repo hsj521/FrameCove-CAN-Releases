@@ -1,2 +1,20 @@
-# AutoX-CAN-Releases
-AutoX CAN Windows 安装包与版本下载
+# AutoX CAN 下载中心
+
+此仓库仅用于发布 AutoX CAN 的公开安装包、校验信息与版本说明，**不包含源代码**。
+
+## 下载
+
+请前往 [Releases](../../releases) 页面下载最新版本。
+
+当前版本：Windows V1.1.0
+
+- 安装包：`AutoX_CAN_Setup_1.1.0.exe`
+- 安装方式：下载后双击安装包，按安装向导完成安装。
+
+## 文件校验
+
+每个版本的 Release 说明中均提供 SHA256 校验值。下载完成后，建议先核对校验值再安装。
+
+## 反馈
+
+如遇安装或使用问题，请在本仓库的 Issues 页面提交反馈。
