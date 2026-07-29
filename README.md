@@ -1,4 +1,4 @@
-# AutoX CAN
+> [简体中文](README.md) | [English](docs/README.en.md) | [日本語](docs/README.ja.md) | [한국어](docs/README.ko.md)`n`n# AutoX CAN
 
 > 面向 CAN / CAN FD 日志分析的 Windows 桌面工具：导入日志与协议定义，选择信号，即可生成可交互、可离线分享的 HTML 分析报告。
 
